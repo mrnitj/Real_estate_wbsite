@@ -5,6 +5,7 @@ import Form from 'react-bootstrap/Form';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
+import '../styles/Navbar.css'
 
 const Navbarcmpt = () => {
   return (
@@ -21,10 +22,10 @@ const Navbarcmpt = () => {
             navbarScroll
             
           >
-            <Nav.Link href="#action1" style={{fontSize:'14px', fontWeight:'400'}}>HOME</Nav.Link>
-            <Nav.Link href="#action2" style={{fontSize:'14px', fontWeight:'400'}}>PROFILE</Nav.Link>
-            <Nav.Link href="#action3" style={{fontSize:'14px', fontWeight:'400'}}>REPORTS</Nav.Link>
-            <Nav.Link href="#action4" style={{fontSize:'14px', fontWeight:'400'}}>INSIGHTS</Nav.Link>
+            <Nav.Link className='actionLink' href="#action1" style={{fontSize:'14px', fontWeight:'400'}}>HOME</Nav.Link>
+            <Nav.Link className='actionLink' href="#action2" style={{fontSize:'14px', fontWeight:'400'}}>PROFILE</Nav.Link>
+            <Nav.Link className='actionLink' href="#action3" style={{fontSize:'14px', fontWeight:'400'}}>REPORTS</Nav.Link>
+            <Nav.Link className='actionLink' href="#action4" style={{fontSize:'14px', fontWeight:'400'}}>INSIGHTS</Nav.Link>
             
             
           </Nav>

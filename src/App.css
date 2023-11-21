@@ -1,15 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Nunito:wght@400;600;700&display=swap');
 
 body{
   margin: 0;
   padding: 0;
   max-width: 1440px;
-  /* background-color: aqua; */
-  padding: 0 3rem;
   font-family: Nunito;
 }
-
 .App{
-  padding: 1rem 1.5rem;
+  position: relative;
+  overflow: hidden;
 }

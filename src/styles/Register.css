@@ -1,0 +1,50 @@
+.Register {
+    background: #2e2e2e;
+    padding: 3rem 4rem;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.Register__Right{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.Register__Right P:nth-child(1) {
+    max-width: 598px;
+    color: #fff;
+    font-family: Nunito;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.Register__Right p:nth-child(2) {
+    max-width: 598px;
+    color: #fff;
+    font-family: Nunito;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.Register__Right button {
+    width: 202px;
+    height: 48px;
+    border-radius: 4px;
+    background: linear-gradient(90deg, #12c2e9 -15.84%, #c471ed 53.22%, #f64f59 122.28%);
+    border: none;
+    color: #fff;
+    font-family: Nunito;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+}

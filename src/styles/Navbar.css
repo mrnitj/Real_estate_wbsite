@@ -1,0 +1,21 @@
+.actionLink{
+    position: relative;
+}
+
+.actionLink:hover{
+    color: black;
+}
+
+.actionLink::after{
+    content: "";
+    position: absolute;
+    background-color: black;
+    height: 2px;
+    width: 0;
+    left: 0;
+    bottom: 3px;
+}
+
+.actionLink:hover::after{
+    width: 100%;
+}

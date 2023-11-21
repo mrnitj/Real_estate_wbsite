@@ -1,0 +1,97 @@
+.Offers {
+    background: #2E2E2E;
+    padding: 2rem 4rem;
+    margin: 0;
+    border-bottom:1px solid grey;
+}
+
+.Offers_content {
+    display: flex;
+    gap: 3rem;
+}
+
+.Offers__Left {
+    max-width: 606px;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.Offers__Left p:nth-child(1) {
+    color: #fff;
+    font-family: Nunito;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    max-width: 534px;
+}
+
+.Offers__Left p {
+    color: #fff;
+    font-family: Nunito;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.Offers__Right-left {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 100px;
+    gap: 1rem;
+}
+
+.Offers__Right-left p {
+    margin: 0;
+}
+
+.Offers__Right {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: auto;
+    gap: 1rem;
+}
+
+.Offers__Right-left .circle {
+    background-image: url("https://res.cloudinary.com/dnrmw8eif/image/upload/v1700566900/Ellipse_3_1_fn1x1w.png");
+    height: 76px;
+    width: 76px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Offers__Right-left p:nth-child(2) {
+    max-width: 174px;
+    color: #fff;
+    font-family: Nunito;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.Offers__Right-right {
+    width: 610px;
+    height: 118px;
+    border-radius: 4px;
+    background: #c471ed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Offers__Right-right p {
+    max-width: 563px;
+    color: #fff;
+    font-family: Nunito;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+
