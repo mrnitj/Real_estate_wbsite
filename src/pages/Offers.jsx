@@ -80,7 +80,6 @@ export const Offers = () => {
                     </div>
                 </div>
             </div>
-            
         </div>
     );
 };

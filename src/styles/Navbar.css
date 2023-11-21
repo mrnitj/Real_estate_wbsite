@@ -1,12 +1,12 @@
-.actionLink{
+.actionLink {
     position: relative;
 }
 
-.actionLink:hover{
+.actionLink:hover {
     color: black;
 }
 
-.actionLink::after{
+.actionLink::after {
     content: "";
     position: absolute;
     background-color: black;
@@ -16,6 +16,6 @@
     bottom: 3px;
 }
 
-.actionLink:hover::after{
+.actionLink:hover::after {
     width: 100%;
 }

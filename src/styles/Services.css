@@ -34,14 +34,14 @@
 }
 
 .Services1__Right,
-.Services2__Left{
+.Services2__Left {
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
 }
 
-.Services1__Right p:nth-child(1)
-,.Services2__Left p:nth-child(1) {
+.Services1__Right p:nth-child(1),
+.Services2__Left p:nth-child(1) {
     color: #2e2e2e;
     text-align: left;
     font-family: Nunito;
@@ -61,7 +61,6 @@
     line-height: normal;
 }
 
-
 .Services1__Right,
 .Services2__Left li {
     color: #2e2e2e;
@@ -78,7 +77,7 @@
     height: 48px;
     border-radius: 4px;
     border: 1px solid;
-    border-image: linear-gradient(to right, #12C2E9, #C471ED, #F64F59);
+    border-image: linear-gradient(to right, #12c2e9, #c471ed, #f64f59);
     border-image-slice: 1;
     color: #2e2e2e;
     font-family: Nunito;
@@ -90,11 +89,10 @@
     background-color: transparent;
 }
 
-.Services2__Right{
+.Services2__Right {
     position: relative;
 }
-.Services2__Right img:nth-child(2){
+.Services2__Right img:nth-child(2) {
     position: absolute;
     left: 130px;
-
 }

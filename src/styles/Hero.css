@@ -4,7 +4,6 @@
     flex-direction: column;
     padding: 1rem 4rem;
     overflow: hidden;
-    
 }
 
 .Hero_contents {
@@ -49,10 +48,10 @@
     flex-shrink: 0;
     border: none;
 }
-.Hero__Right{
+.Hero__Right {
     position: relative;
 }
-.Hero__Right img:nth-child(2){
+.Hero__Right img:nth-child(2) {
     position: absolute;
     left: 8px;
     bottom: 100px;
@@ -121,7 +120,7 @@
     opacity: 0.56;
     background: #f64f59;
     filter: blur(200px);
-    position:absolute;
+    position: absolute;
     top: 281px;
     right: -255px;
 }

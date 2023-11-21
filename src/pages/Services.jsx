@@ -67,10 +67,7 @@ export const Services = () => {
                 <div className="Services1__Left">
                     <img src="https://res.cloudinary.com/dnrmw8eif/image/upload/v1700558745/Group_14_th6tox.png" alt="" />
 
-                    <img
-                        src="https://res.cloudinary.com/dnrmw8eif/image/upload/v1700562135/Group_23_1_wju1jz.png"
-                        alt=""
-                    />
+                    <img src="https://res.cloudinary.com/dnrmw8eif/image/upload/v1700562135/Group_23_1_wju1jz.png" alt="" />
                 </div>
 
                 <div className="Services1__Right">
@@ -111,22 +108,15 @@ export const Services = () => {
                 <div className="Services2__Right">
                     <img src="https://res.cloudinary.com/dnrmw8eif/image/upload/v1700558745/Group_14_th6tox.png" alt="" />
 
-                    <img
-                        src="https://res.cloudinary.com/dnrmw8eif/image/upload/v1700562230/Group_24_zluqq3.png"
-                        alt=""
-                    />
+                    <img src="https://res.cloudinary.com/dnrmw8eif/image/upload/v1700562230/Group_24_zluqq3.png" alt="" />
                 </div>
             </div>
-
 
             <div className="Services_contents_Left">
                 <div className="Services1__Left">
                     <img src="https://res.cloudinary.com/dnrmw8eif/image/upload/v1700558745/Group_14_th6tox.png" alt="" />
 
-                    <img
-                        src="https://res.cloudinary.com/dnrmw8eif/image/upload/v1700562328/Group_25_gcc614.png"
-                        alt=""
-                    />
+                    <img src="https://res.cloudinary.com/dnrmw8eif/image/upload/v1700562328/Group_25_gcc614.png" alt="" />
                 </div>
 
                 <div className="Services1__Right">
