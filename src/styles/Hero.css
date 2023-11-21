@@ -1,0 +1,78 @@
+.Hero {
+    /* background-color: rgb(247, 246, 246); */
+    display: flex;
+    flex-direction: column;
+}
+
+.Hero_contents {
+    margin-top: 87px;
+}
+.Hero__Left {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.Hero__Left P {
+    color: #2e2e2e;
+    font-family: Nunito;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+    max-width: 500px;
+    margin-top: 75px;
+}
+
+.Hero__Left span {
+    font-weight: 700;
+}
+
+.Hero__Left button {
+    color: #fff;
+    font-family: Nunito;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+    border-radius: 4px;
+    background: linear-gradient(90deg, #12c2e9 -15.84%, #c471ed 53.22%, #f64f59 122.28%);
+    width: 202px;
+    height: 48px;
+    flex-shrink: 0;
+    border: none;
+}
+
+.Hero_contents2{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-self: center;
+    align-items: center;
+    margin-top: 160px;
+}
+
+.Hero_contents2 p:nth-child(1) {
+    max-width: 1080px;
+    color: #2e2e2e;
+    text-align: center;
+    font-family: Nunito;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding: 0 5rem;
+}
+
+.Hero_contents2 p:nth-child(2) {
+    max-width: 1080px;
+    color: #2e2e2e;
+    text-align: center;
+    font-family: Nunito;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
